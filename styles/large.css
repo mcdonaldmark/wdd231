@@ -113,7 +113,7 @@ footer {
     padding-bottom: 785px;
     padding: 1rem;
     text-align: center;
-    margin-right: -60px;
+    margin-right: 120px;
     padding-bottom: 285px;
     padding-left: 15px;
     margin-left: 60px;
@@ -126,11 +126,11 @@ footer {
     padding-bottom: 500px;
     padding: 1rem;
     text-align: center;
-    margin-right: -900px;
+    margin-right: -475px;
     padding-bottom: 54px;
     margin-top: -700px;
     padding-left: 15px;
-    margin-left: 1100px;
+    margin-left: 900px;
 }
 
 .card2 {
@@ -192,7 +192,7 @@ footer {
 }
 
 .image1 {
-    margin-right: -15px;
+    margin-right: -5px;
     margin-top: 65px;
     margin-bottom: 65px;
 }
