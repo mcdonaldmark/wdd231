@@ -101,8 +101,6 @@ allLink.addEventListener("click", () => {
     createCourseCard(all)
 })
 
-const notLink = document.querySelector("#not");
-
 function createCourseCard(courses) {
     document.querySelector(".grid").innerHTML = "";
     courses.forEach(course => {
