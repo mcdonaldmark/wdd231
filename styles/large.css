@@ -305,7 +305,7 @@ section {
 }
 
 /* large view navigation ************************************/
-@media (min-width: 320px) {
+@media (min-width: 37.2em) {
 
     /* Document */
     * {
