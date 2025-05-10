@@ -71,7 +71,7 @@ nav a:hover {
     color: white;
     position: absolute;
     top: 1rem;
-    right: 4rem;
+    right: 2rem;
 }
 
 #menu::before {
