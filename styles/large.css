@@ -114,6 +114,7 @@ footer {
     text-align: center;
     margin-right: 120px;
     padding-bottom: 285px;
+    padding-right: 800px;
     padding-left: 15px;
     margin-left: 60px;
 }
@@ -126,10 +127,11 @@ footer {
     padding: 1rem;
     text-align: center;
     margin-right: -475px;
-    padding-bottom: 54px;
-    margin-top: -700px;
-    padding-left: 15px;
-    margin-left: 900px;
+    padding-bottom: 0px;
+    margin-top: -717px;
+    padding-left: 430px;
+    margin-left: 950px;
+    padding-top: 0px;
 }
 
 .card2 {
@@ -142,9 +144,10 @@ footer {
     margin-right: -475px;
     padding-bottom: 100px;
     margin-top: 100px;
-    padding-left: 15px;
-    margin-left: 55px;
+    padding-left: 150px;
+    margin-left: 57px;
     margin-bottom: 100px;
+    padding-right: 1190px;
 }
 
 .headback {
@@ -154,7 +157,34 @@ footer {
     margin: -16px -16px 0px -16px;
     text-align: center;
     padding-top: 50px;
+    margin-right: -800px;
+    padding-right: 10px;
     color: white;
+}
+
+.headback1 {
+    background: #00308F;
+    padding-bottom: 50px;
+    border-radius: 8px;
+    margin: 0px -16px 30px -430px;
+    text-align: center;
+    padding-top: 50px;
+    margin-right: -17px;
+    padding-right: 10px;
+    color: white;
+}
+
+.headback2 {
+    background: #00308F;
+    padding-bottom: 50px;
+    border-radius: 8px;
+    margin: -16px -16px 0px -11px;
+    text-align: center;
+    padding-top: 50px;
+    margin-right: -1190px;
+    padding-right: 10px;
+    color: white;
+    margin-left: -150px;
 }
 
 .alignleft {
@@ -168,43 +198,24 @@ footer {
     margin-left: 50px;
 }
 
-.alignleft1 {
-    text-align: left;
-    text-align: justify;
-    padding-top: 35px;
-    font-family: cursive;
-    font-weight: 400;
-    line-height: 50px;
-    padding-bottom: 50px;
-    margin-left: 50px;
-}
-
-.alignleft2 {
-    text-align: left;
-    text-align: justify;
-    padding-top: 35px;
-    font-family: cursive;
-    font-weight: 400;
-    line-height: 50px;
-    padding-bottom: 50px;
-    margin-left: 50px;
-}
-
 .image1 {
     margin-right: -2px;
-    margin-top: 65px;
+    margin-top: 10px;
     margin-bottom: 65px;
+    margin-left: -422px;
 }
 
 .p1 {
     font-weight: bold;
     margin-top: -30px;
     font-size: 30px;
+    margin-left: -420px;
+    margin-bottom: 80px;
 }
 
 /* buttons */
 
-.button {
+button {
     background-color: black;
     border-radius: 9px;
     border: none;
@@ -214,150 +225,48 @@ footer {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 12px;
     cursor: pointer;
-    margin-top: 40px;
     padding: 20px 120px 20px 120px;
     font-size: 20px;
-}
-
-.button1 {
-    background-color: black;
-    border-radius: 9px;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    margin-top: 40px;
-    padding: 20px 120px 20px 120px;
-    font-size: 20px;
-    margin-left: 10px;
-}
-
-.button2 {
-    background-color: black;
-    border-radius: 9px;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    margin-top: 40px;
-    padding: 20px 120px 20px 120px;
-    font-size: 20px;
-    margin-left: 10px;
+    margin-left: 58px;
 }
 
 .borderbottom {
     border-bottom: 5px solid black;
     margin-top: 40px;
-    margin-left: -16px;
-    margin-right: -16px;
+    margin-left: -150px;
+    margin-right: -1190px;
 }
 
-/* Shaped Nonbuttons */
+/* Cards */
 
-.shape {
-    background-color: blue;
-    border-radius: 9px;
-    border: none;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 100px;
-    margin-top: 70px;
-    padding: 20px 100px 20px 100px;
-    font-size: 20px;
-    margin-left: -5px;
+.grid {
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: -50px;
+    font-size: 25px;
+    margin-top: 230px;
 }
 
-.shape1 {
-    background-color: blue;
-    border-radius: 9px;
-    border: none;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 100px;
-    margin-top: 40px;
-    padding: 20px 100px 20px 100px;
-    font-size: 20px;
-    margin-left: 10px;
+.grid1 {
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: -50px;
+    font-size: 25px;
+    margin-top: 30px;
 }
 
-.shape2 {
-    background-color: blue;
-    border-radius: 9px;
-    border: none;
-    color: white;
+section {
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    width: 300px;
+    padding: 10px 5px 10px 5px;
+    margin: 20px;
+    margin-left: 30px;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    margin-top: 40px;
-    padding: 20px 100px 20px 100px;
-    font-size: 20px;
-    margin-left: 10px;
-}
-
-.shape3 {
-    background-color: grey;
-    border-radius: 9px;
-    border: none;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 100px;
-    margin-top: 40px;
-    padding: 20px 100px 20px 100px;
-    font-size: 20px;
-    margin-left: -5px;
-}
-
-.shape4 {
-    background-color: blue;
-    border-radius: 9px;
-    border: none;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 100px;
-    margin-top: 40px;
-    padding: 20px 100px 20px 100px;
-    font-size: 20px;
-    margin-left: 10px;
-}
-
-.shape5 {
-    background-color: gray;
-    border-radius: 9px;
-    border: none;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    margin-top: 40px;
-    padding: 20px 100px 20px 100px;
-    font-size: 20px;
-    margin-left: 10px;
+    line-height: 25px;
+    background-color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }

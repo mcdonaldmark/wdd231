@@ -77,3 +77,43 @@ const courses = [
         completed: false
     }
 ]
+
+createCourseCard(courses)
+
+const cseLink = document.querySelector("#cse");
+
+cseLink.addEventListener("click", () => {
+    let cse = courses.filter(course => course.subject.includes("CSE"));
+    createCourseCard(cse)
+})
+
+const wddLink = document.querySelector("#wdd");
+
+wddLink.addEventListener("click", () => {
+    let wdd = courses.filter(course => course.subject.includes("WDD"));
+    createCourseCard(wdd)
+})
+
+const allLink = document.querySelector("#all");
+
+allLink.addEventListener("click", () => {
+    let all = courses.filter(course => course.subject);
+    createCourseCard(all)
+})
+
+function createCourseCard(courses) {
+    document.querySelector(".grid").innerHTML = "";
+    courses.forEach(course => {
+        let card = document.createElement("section");
+        let name = document.createElement("p");
+        let number = document.createElement("p");
+
+        name.textContent = course.subject;
+        number.textContent = course.number;
+
+        card.appendChild(name);
+        card.appendChild(number);
+
+        document.querySelector(".grid").appendChild(card);
+    });
+}
