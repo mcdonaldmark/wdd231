@@ -50,7 +50,7 @@ nav {
     display: flex;
     flex-direction: column;
     list-style: none;
-    margin-left: -570px;
+    margin-left: -600px;
 }
 
 nav a {
