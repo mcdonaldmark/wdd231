@@ -46,29 +46,42 @@ h1 {
 
 nav {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    background-color: black;
-    margin-top: 50px;
-    margin-left: -15px;
-    font-size: 22px;
+    flex-direction: column;
+    flex-direction: column;
+    list-style: none;
 }
 
 nav a {
-    background-color: black;
-    color: white;
-    padding: 30px 20px;
+    display: none;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
 }
 
 nav a:hover {
     text-decoration: underline;
     text-decoration-color: white;
+}
+
+#menu {
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    color: white;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "❌";
+}
+
+.open a {
+    display: block;
 }
 
 .image {
@@ -271,7 +284,8 @@ section {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-@media (min-width: 320px) {
+/* large view navigation ************************************/
+@media (min-width: 37.5em) {
 
     /* Document */
     * {
@@ -344,6 +358,11 @@ section {
     nav a:hover {
         text-decoration: underline;
         text-decoration-color: white;
+    }
+
+    #menu {
+        display: none;
+        /* hide hamburger button */
     }
 
     .image {

@@ -103,13 +103,6 @@ allLink.addEventListener("click", () => {
 
 const notLink = document.querySelector("#not");
 
-notLink.addEventListener("click", () => {
-    let not = courses.filter(course => course.completed === false);
-    createCourseCard(not)
-})
-
-const sum = document.querySelector("demo");
-
 function createCourseCard(courses) {
     document.querySelector(".grid").innerHTML = "";
     courses.forEach(course => {
