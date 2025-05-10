@@ -71,7 +71,7 @@ nav a:hover {
     color: white;
     position: absolute;
     top: 1rem;
-    right: 13rem;
+    right: 4rem;
 }
 
 #menu::before {
@@ -249,7 +249,7 @@ button {
     cursor: pointer;
     padding: 20px 20px 20px 20px;
     font-size: 20px;
-    margin-left: -45px;
+    margin-left: -15px;
 }
 
 .borderbottom {
