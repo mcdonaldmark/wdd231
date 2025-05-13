@@ -111,7 +111,7 @@ function createCourseCard(courses) {
         let name = document.createElement("p");
         let number = document.createElement("p");
 
-        const totalcredits = document.querySelector("#total-credits");
+        const totalcredits = document.querySelector("#totalcredits");
 
         card.className = "myStyle";
 
