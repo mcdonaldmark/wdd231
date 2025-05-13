@@ -403,6 +403,14 @@ section {
         margin-top: -450px;
     }
 
+    .myStyle {
+        background-color: lightgrey;
+    }
+
+    .newStyle {
+        background-color: lightskyblue;
+    }
+
     /* Footer */
 
     footer {

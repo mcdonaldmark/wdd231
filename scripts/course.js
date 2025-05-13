@@ -80,6 +80,7 @@ const courses = [
 
 createCourseCard(courses)
 
+
 const cseLink = document.querySelector("#cse");
 
 cseLink.addEventListener("click", () => {
@@ -101,12 +102,24 @@ allLink.addEventListener("click", () => {
     createCourseCard(all)
 })
 
+
+
 function createCourseCard(courses) {
     document.querySelector(".grid").innerHTML = "";
     courses.forEach(course => {
         let card = document.createElement("section");
         let name = document.createElement("p");
         let number = document.createElement("p");
+
+        const totalcredits = document.querySelector("#total-credits");
+
+        card.className = "myStyle";
+
+        if (course.completed == true) {
+            card.className = "newStyle";
+        } else {
+            card.className = "myStyle";
+        }
 
         name.textContent = course.subject;
         number.textContent = course.number;
