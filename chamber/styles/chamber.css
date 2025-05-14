@@ -105,10 +105,12 @@
         font-weight: 900;
         font-size: 22px;
         padding-left: 500px;
+        margin-top: 1000px;
+        margin-left: -400px;
     }
 
     .paragraph1 {
-        margin-left: -1900px;
+        margin-left: -1500px;
         font-size: 16px;
     }
 
@@ -122,7 +124,6 @@
     }
 
     .paraform {
-        margin-top: -70px;
         margin-top: -100px;
     }
 
@@ -133,7 +134,12 @@
     }
 
     .socialcontainer {
-        display: flex;
         margin-top: 30px;
         margin-left: 700px;
+    }
+
+    /* Banner */
+    .hero {
+        padding: 0px;
+        margin: 0px;
     }
