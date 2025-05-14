@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Directory</title>
-    <meta name="description" content="Directory">
+    <meta name="description" content="Chmaber of Commerce Directory">
     <meta name="author" content="Mark McDonald">
     <link rel="stylesheet" href="styles/chamber.css">
     <link rel="stylesheet" href="styles/normalize.css">
     <script src="scripts/dates.js" defer></script>
     <script src="scripts/company.js" defer></script>
+    <script src="scripts/layout.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
@@ -24,7 +25,7 @@
 
 <body>
     <header>
-        <h2 class="h2">Rocky Mountain</h2>
+        <h1 class="h2">Rocky Mountain Directory</h1>
         <p class="paragraph">Chamber of Commerce</p>
         <img class="image" src="images/mountain.jpg" alt="Valley Grove" width="190" height="140">
         <nav>
@@ -36,7 +37,17 @@
     </header>
     <main>
         <img class="hero" src="images/mountain1.jpg" alt="Mountains">
-        <div id="cards"></div>
+
+        <div class="menu">
+            <button id="grid">⏹️ Grid</button>
+            <button id="list">📄 List</button>
+        </div>
+
+        <article class="grid">
+
+            <div id="cards"></div>
+
+        </article>
     </main>
     <footer>
         <p class="paragraph1">Rocky Mountain Chamber of Commerce</p>
