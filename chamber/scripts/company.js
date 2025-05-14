@@ -25,7 +25,7 @@ const displayCompanies = (companies) => {
         address1.textContent = `${company.address.city}, ${company.address.state}`;
         address3.textContent = `${company.address.country}`;
         address2.textContent = `${company.address.zip}`;
-        phone.textContent = `${phone}`;
+        phone.textContent = `${url}`;
 
 
         card.appendChild(fullName);
