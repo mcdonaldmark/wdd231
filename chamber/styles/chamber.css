@@ -113,10 +113,27 @@
     }
 
     .paragraph2 {
-        margin-left: 0900px;
+        margin-left: 900px;
         font-size: 16px;
+    }
+
+    .paracontainer {
+        margin-top: -45px;
     }
 
     .paraform {
         margin-top: -70px;
+        margin-top: -100px;
+    }
+
+    /* Social Media */
+
+    .social {
+        margin-left: -150px;
+    }
+
+    .socialcontainer {
+        display: flex;
+        margin-top: 30px;
+        margin-left: 700px;
     }
