@@ -2,13 +2,6 @@
     "companies": [
         {
             "name": "Mark McDonald",
-            "address": {
-                "street": "123 Bedford Road",
-                "city": "Gweru",
-                "state": "Midlands Province",
-                "country": "Zimbabwe",
-                "zip": "00000"
-            },
             "phone number": "Dan Jukes",
             "website url": "",
             "image or icon file names": "h",
