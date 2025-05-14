@@ -12,13 +12,29 @@ getCompanyData();
 const displayCompanies = (companies) => {
     companies.forEach((company) => {
         let card = document.createElement('section');
-        let fullName = document.createElement('h2'); // fill in the blank
+        let fullName = document.createElement('h2');
+        let address = document.createElement("p");
+        let address1 = document.createElement("p");
+        let address2 = document.createElement("p");
+        let address3 = document.createElement("p");
+        let phone = document.createElement("p");
+
 
         fullName.textContent = `${company.name}`;
+        address.textContent = `${company.address.street}`;
+        address1.textContent = `${company.address.city}, ${company.address.state}`;
+        address3.textContent = `${company.address.country}`;
+        address2.textContent = `${company.address.zip}`;
+        phone.textContent = `${phone}`;
 
-        // Append the section(card) with the created elements
-        card.appendChild(fullName); //fill in the blank
+
+        card.appendChild(fullName);
+        card.appendChild(address);
+        card.appendChild(address1);
+        card.appendChild(address3);
+        card.appendChild(address2);
+        card.appendChild(phone);
 
         cards.appendChild(card);
-    }); // end of arrow function and forEach loop
+    });
 }
