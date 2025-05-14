@@ -1,100 +1,102 @@
-[
-    {
-        "name": "Mark McDonald",
-        "address": {
-            "street": "123 Bedford Road",
-            "city": "Gweru",
-            "state": "Midlands Province",
-            "country": "Zimbabwe",
-            "zip": "00000"
+{
+    "companies": [
+        {
+            "name": "doTERRA International",
+            "address": {
+                "street": "389 S 1300 W St,",
+                "city": "Pleasant Grove",
+                "state": "Utah",
+                "country": "United States",
+                "zip": "84062"
+            },
+            "phone number": "800-411-8151",
+            "website url": "https://www.doterra.com/US/en",
+            "image or icon file names": "https://www.asbmb.org/getmedia/af06371c-44a3-4795-b148-900f10c13f9b/Ole-Miss-900x506.jpg?width=900&height=506&ext=.jpg",
+            "membership level": 3
         },
-        "phone number": "Dan Jukes",
-        "website url": "",
-        "image or icon file names": "h",
-        "membership level (1=member, 2=silver, 3=gold)": "h"
-    },
-    {
-        "name": "Mark McDonald",
-        "address": {
-            "street": "123 Bedford Road",
-            "city": "Gweru",
-            "state": "Midlands Province",
-            "country": "Zimbabwe",
-            "zip": "00000"
+        {
+            "name": "Kneaders",
+            "address": {
+                "street": "1595 W State St",
+                "city": "Pleasant Grove",
+                "state": "Utah",
+                "country": "United States",
+                "zip": "84062"
+            },
+            "phone number": "801-980-3875",
+            "website url": "https://www.kneaders.com/",
+            "image or icon file names": "https://www.earthdiver.com/cdn-cgi/image/width=4000,quality=75,format=auto/https://assets.earthdiver.com/media/media-2725383.jpg",
+            "membership level": 2
         },
-        "phone number": "Dan Jukes",
-        "website url": "",
-        "image or icon file names": "h",
-        "membership level (1=member, 2=silver, 3=gold)": "h"
-    },
-    {
-        "name": "Mark McDonald",
-        "address": {
-            "street": "123 Bedford Road",
-            "city": "Gweru",
-            "state": "Midlands Province",
-            "country": "Zimbabwe",
-            "zip": "00000"
+        {
+            "name": "Dominoes",
+            "address": {
+                "street": "1809 W State St",
+                "city": "Pleasant Grove",
+                "state": "Utah",
+                "country": "United States",
+                "zip": "84062"
+            },
+            "phone number": "385-269-2020",
+            "website url": "https://pizza.dominos.com/utah/pleasant-grove",
+            "image or icon file names": "https://www.dominos.com/static/1.113.0/images/tiles/carryoutDeal/side.webp",
+            "membership level": 2
         },
-        "phone number": "Dan Jukes",
-        "website url": "",
-        "image or icon file names": "h",
-        "membership level (1=member, 2=silver, 3=gold)": "h"
-    },
-    {
-        "name": "Mark McDonald",
-        "address": {
-            "street": "123 Bedford Road",
-            "city": "Gweru",
-            "state": "Midlands Province",
-            "country": "Zimbabwe",
-            "zip": "00000"
+        {
+            "name": "Jurassic Tacos",
+            "address": {
+                "street": "1809 W State St",
+                "city": "Pleasant Grove",
+                "state": "Utah",
+                "country": "United States",
+                "zip": "84062"
+            },
+            "phone number": "385-387-1271",
+            "website url": "https://jurassictacos.com/jurassictacospleasantgrove",
+            "image or icon file names": "https://lehifreepress.com/wp-content/uploads/2022/09/FB342FBA-C1BF-454E-9F8D-DA29C41FCB9C-1000x600.jpeg",
+            "membership level": 1
         },
-        "phone number": "Dan Jukes",
-        "website url": "",
-        "image or icon file names": "h",
-        "membership level (1=member, 2=silver, 3=gold)": "h"
-    },
-    {
-        "name": "Mark McDonald",
-        "address": {
-            "street": "123 Bedford Road",
-            "city": "Gweru",
-            "state": "Midlands Province",
-            "country": "Zimbabwe",
-            "zip": "00000"
+        {
+            "name": "Walmart",
+            "address": {
+                "street": "1707 W State St",
+                "city": "Pleasant Grove",
+                "state": "Utah",
+                "country": "United States",
+                "zip": "84062"
+            },
+            "phone number": "801-216-0001",
+            "website url": "https://www.walmart.com/store/4700-pleasant-grove-ut",
+            "image or icon file names": "https://c8.alamy.com/comp/WAN2D1/a-logo-sign-outside-of-a-walmart-neighborhood-market-retail-store-location-in-pleasant-grove-utah-on-july-30-2019-WAN2D1.jpg",
+            "membership level": 3
         },
-        "phone number": "Dan Jukes",
-        "website url": "",
-        "image or icon file names": "h",
-        "membership level (1=member, 2=silver, 3=gold)": "h"
-    },
-    {
-        "name": "Mark McDonald",
-        "address": {
-            "street": "123 Bedford Road",
-            "city": "Gweru",
-            "state": "Midlands Province",
-            "country": "Zimbabwe",
-            "zip": "00000"
+        {
+            "name": "Macey's",
+            "address": {
+                "street": "931 W State St",
+                "city": "Pleasant Grove",
+                "state": "Utah",
+                "country": "United States",
+                "zip": "84062"
+            },
+            "phone number": "801-980-3875",
+            "website url": "https://www.maceys.com/locations/pleasant-grove",
+            "image or icon file names": "https://www.afstores.com/wp-content/uploads/2024/08/Maceys-Pleasant-Grove-Remodel.jpeg",
+            "membership level": 2
         },
-        "phone number": "Dan Jukes",
-        "website url": "",
-        "image or icon file names": "h",
-        "membership level (1=member, 2=silver, 3=gold)": "h"
-    },
-    {
-        "name": "Mark McDonald",
-        "address": {
-            "street": "123 Bedford Road",
-            "city": "Gweru",
-            "state": "Midlands Province",
-            "country": "Zimbabwe",
-            "zip": "00000"
-        },
-        "phone number": "Dan Jukes",
-        "website url": "",
-        "image or icon file names": "h",
-        "membership level (1=member, 2=silver, 3=gold)": "h"
-    }
-]
+        {
+            "name": "Costa Vida",
+            "address": {
+                "street": "881 W State St",
+                "city": "Pleasant Grove",
+                "state": "Utah",
+                "country": "United States",
+                "zip": "84062"
+            },
+            "phone number": "801-785-8180",
+            "website url": "https://www.costavida.com/locations/us/ut/pleasant-grove/881-west-state-street/",
+            "image or icon file names": "https://lh3.googleusercontent.com/BFHUB8aWoTnEdo6loBvJ7UB548wTqxjbjlhpDS1ekUCbIYuKWN0DfV6fT_F6afAJFDXCgPqDQZT5NF_EN6fAY2m8fRs5xlj5xA=s1600",
+            "membership level": 2
+        }
+    ]
+}
