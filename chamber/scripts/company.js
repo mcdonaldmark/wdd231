@@ -18,7 +18,7 @@ const displayCompanies = (companies) => {
         let address2 = document.createElement("p");
         let address3 = document.createElement("p");
         let phone1 = document.createElement("p");
-        let url1 = document.createElement("p");
+        let url1 = document.createElement("a");
         let portrait = document.createElement('img');
 
         fullName.textContent = `${company.name}`;
@@ -27,6 +27,7 @@ const displayCompanies = (companies) => {
         address3.textContent = `${company.address.country}`;
         address2.textContent = `${company.address.zip}`;
         phone1.textContent = `${company.phone}`;
+        url1.href = `${company.url1}`;
         url1.textContent = `${company.url1}`;
         portrait.setAttribute('src', company.image);
         portrait.setAttribute('alt', `${fullName}`);
