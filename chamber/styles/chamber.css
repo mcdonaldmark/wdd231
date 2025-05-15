@@ -45,19 +45,20 @@
 
     .h2 {
         padding-top: 10px;
-        padding-left: 700px;
+        padding-left: 650px;
         padding-right: 70px;
         padding-bottom: 10px;
-        margin-right: 530px;
+        margin-right: 430px;
         margin-top: 50px;
         margin-left: -500px;
-        font-size: 30px;
+        font-size: 20px;
         font-family: cursive;
     }
 
     .paragraph {
         font-size: 20px;
-        margin-left: -430px;
+        margin-left: -530px;
+        margin-top: 30px;
     }
 
     nav {
@@ -71,6 +72,12 @@
         display: none;
         text-align: center;
         text-decoration: none;
+        color: white;
+        padding: 30px 20px;
+        text-align: center;
+        text-decoration: none;
+        font-family: "Roboto", sans-serif;
+        font-weight: 900;
     }
 
     nav a:hover {
@@ -80,8 +87,11 @@
 
     .image {
         border-radius: 30px;
-        margin-left: -1200px;
-        margin-top: -110px;
+        margin-left: -800px;
+        margin-top: -120px;
+        width: 110px;
+        height: 80px;
+        margin-bottom: 110px;
     }
 
     /* Footer */
@@ -285,7 +295,7 @@
             display: flex;
             flex-direction: row;
             align-items: center;
-            margin-top: -90px;
+            margin-top: -190px;
             margin-left: 1000px;
             font-size: 22px;
             padding-bottom: 35px;
@@ -310,6 +320,8 @@
             border-radius: 30px;
             margin-left: -1200px;
             margin-top: -110px;
+            width: 190px;
+            height: 140px;
         }
 
         /* Footer */
@@ -324,7 +336,7 @@
             font-weight: 900;
             font-size: 22px;
             padding-left: 500px;
-            margin-top: 100px;
+            margin-top: 200px;
             margin-left: -400px;
         }
 
@@ -360,8 +372,8 @@
 
         /* Banner */
         .hero {
-            padding: 0px;
-            margin: 0px;
+            width: 220%;
+            height: 30%;
         }
 
         /* Cards */

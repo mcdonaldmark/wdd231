@@ -28,7 +28,7 @@
     <header>
         <h1 class="h2">Chamber of Commerce Directory Page</h1>
         <p class="paragraph">Rocky Mountain Chamber of Commerce</p>
-        <img class="image" src="images/mountain.jpg" alt="Valley Grove" width="190" height="140">
+        <img class="image" src="images/mountain.jpg" alt="Valley Grove">
         <button type="button" id="menu" title="Menu"></button>
         <nav>
             <a href="#">Home</a>
@@ -38,7 +38,11 @@
         </nav>
     </header>
     <main>
-        <img class="hero" src="images/mountain1.jpg" alt="Mountains">
+        <picture>
+            <source class="hero" srcset="images/mountain1.jpg" media="(min-width: 1000px)">
+            <source class="hero" srcset="images/mountain1.jpg" media="(min-width: 300px)">
+            <img class="hero" src="images/mountain1.jpg" alt="Utah Arch" alt="Mountain" width="500" height="250">
+        </picture>
 
         <div class="menu1">
             <button id="grid">⏹️ Grid</button>
