@@ -157,7 +157,7 @@
         margin-right: -45px;
     }
 
-    .menu {
+    .menu1 {
         display: flex;
         margin-left: 600px;
         text-align: center;
@@ -165,7 +165,7 @@
         margin-bottom: 30px;
     }
 
-    .menu button {
+    .menu1 button {
         padding: 1rem;
         font-weight: 700;
     }
