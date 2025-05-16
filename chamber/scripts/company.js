@@ -32,7 +32,7 @@ const displayCompanies = (companies) => {
         portrait.setAttribute('src', company.image);
         portrait.setAttribute('alt', `${fullName}`);
         portrait.setAttribute('loading', 'lazy');
-        portrait.setAttribute('width', '340');
+        portrait.setAttribute('width', '250');
         portrait.setAttribute('height', '240');
 
 
