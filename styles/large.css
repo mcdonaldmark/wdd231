@@ -305,10 +305,12 @@ section {
 }
 
 #total-credits {
-    display: inline-block;
-    white-space: nowrap;
     font-size: 30px;
     margin-top: 50px;
+}
+
+.credits {
+    margin-left: -375px;
 }
 
 /* large view navigation ************************************/
