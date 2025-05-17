@@ -121,6 +121,18 @@ function createCourseCard(courses) {
             card.className = "myStyle";
         }
 
+        function displayTotalCredits() {
+            let totalCredits = 0;
+
+            courses.forEach(course => {
+                totalCredits += course.credits;
+            });
+
+            document.getElementById("total-credits").innerText = "Total Credits: " + totalCredits;
+        }
+
+        displayTotalCredits();
+
         name.textContent = course.subject;
         number.textContent = course.number;
 
