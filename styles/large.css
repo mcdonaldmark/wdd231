@@ -304,6 +304,13 @@ section {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
+#total-credits {
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
 /* large view navigation ************************************/
 @media (min-width: 37.2em) {
 
@@ -613,8 +620,7 @@ section {
 #total-credits {
     display: inline-block;
     white-space: nowrap;
-    margin-left: 400px;
-    margin-top: 150px;
-    margin-bottom: -1000px;
     font-size: 30px;
+    margin-top: 50px;
+    margin-left: 375px;
 }
