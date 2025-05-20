@@ -162,6 +162,11 @@
         display: block;
     }
 
+    .hero {
+        padding: 0px;
+        margin: 0px;
+    }
+
     /* large view navigation ************************************/
     @media (min-width: 37.2em) {
 
@@ -323,5 +328,88 @@
 
         .open a {
             display: block;
+        }
+
+        .hero {
+            width: 220%;
+            height: 58%;
+        }
+
+        .home {
+            font-size: 35px;
+            margin-left: 30px;
+            margin-top: 60px;
+            margin-bottom: 50px;
+            font-weight: bold;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: auto auto auto;
+        }
+
+        .card {
+            border-radius: 8px;
+            border: 1px solid black;
+            text-align: center;
+            padding-bottom: 785px;
+            padding: 1rem;
+            text-align: center;
+            margin-right: 120px;
+            margin-bottom: 100px;
+            padding-bottom: 500px;
+            padding-right: 500px;
+            padding-left: 15px;
+            margin-left: 30px;
+        }
+
+        .headback {
+            background: brown;
+            padding-bottom: 50px;
+            border-radius: 8px;
+            text-align: left;
+            padding-top: 20px;
+            margin-right: 121px;
+            padding-right: 10px;
+            margin-left: 30px;
+            margin-top: -617px;
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .headback1 {
+            background: brown;
+            padding-bottom: 50px;
+            border-radius: 8px;
+            text-align: left;
+            padding-top: 50px;
+            margin-right: 121px;
+            padding-right: 10px;
+            margin-left: 30px;
+            margin-top: -617px;
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .headback2 {
+            background: brown;
+            padding-bottom: 50px;
+            border-radius: 8px;
+            text-align: left;
+            padding-top: 50px;
+            margin-right: 121px;
+            padding-right: 10px;
+            margin-left: 30px;
+            margin-top: -617px;
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .paragraph3 {
+            padding-left: 60px;
+            padding-top: 40px;
         }
     }

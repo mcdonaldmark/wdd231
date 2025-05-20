@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chamber of Commerce Directory Page</title>
-    <meta name="description" content="Chamber of Commerce Directory Page">
+    <meta name="description" content="Chamber of Commerce Home Page">
     <meta name="author" content="Mark McDonald">
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/normalize.css">
@@ -18,15 +18,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link rel="icon" href="images/favicon.ico">
-    <meta property="og:title" content="Chamber Directory">
-    <meta property="og:description" content="Chamber Directory">
+    <meta property="og:title" content="Chamber of Commerce Home">
+    <meta property="og:description" content="Chamber of Commerce Home">
     <meta property="og:url" content="https://mcdonaldmark.github.io/wdd231/chamber/directory.html">
     <meta property="og:image" content="https://mcdonaldmark.github.io/wdd231/chamber/images/flag.webp" />
 </head>
 
 <body>
     <header>
-        <h1 class="h2">Chamber of Commerce Directory Page</h1>
+        <h1 class="h2">Chamber of Commerce Home Page</h1>
         <p class="paragraph">Rocky Mountain Chamber of Commerce</p>
         <img class="image" src="images/mountain.webp" alt="Valley Grove">
         <button type="button" id="menu" title="Menu"></button>
@@ -37,7 +37,35 @@
             <a href="#">Discover</a>
         </nav>
     </header>
+    <main>
+        <picture>
+            <source class="hero" srcset="images/mountains2.webp" media="(min-width: 1000px)">
+            <source class="hero" srcset="images/mountains2.webp" media="(min-width: 300px)">
+            <img class="hero" src="images/mountains2.webp" alt="Mountain" width="500" height="250">
+        </picture>
 
+        <p class="home">Home</p>
+
+        <div class="grid">
+
+            <section>
+                <div class="card"></div>
+                <p class="headback paragraph3">Events</p>
+            </section>
+
+            <section>
+                <div class="card"></div>
+                <p class="headback1 paragraph3">Current Weather</p>
+            </section>
+
+            <section>
+                <div class="card"></div>
+                <p class="headback2 paragraph3">Weather Forcast</p>
+            </section>
+
+        </div>
+
+    </main>
     <footer>
         <p class="paragraph1">Rocky Mountain Chamber of Commerce</p>
         <p class="paragraph1">100 Rockey Mountain Lane</p>
