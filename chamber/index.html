@@ -10,9 +10,9 @@
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/normalize.css">
     <script src="scripts/dates.js" defer></script>
-    <script src="scripts/company.js" defer></script>
-    <script src="scripts/layout.js" defer></script>
+    <script src="scripts/business-random.js" defer></script>
     <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
@@ -48,22 +48,33 @@
 
         <div class="grid">
 
-            <section>
+            <article>
                 <div class="card"></div>
                 <p class="headback paragraph3">Events</p>
-            </section>
+            </article>
 
-            <section>
+            <article>
                 <div class="card"></div>
                 <p class="headback1 paragraph3">Current Weather</p>
-            </section>
+                <img id="graphic" src="" alt="">
+                <p id="temperature"></p>
+                <p id="description"></p>
+                <p id="max"></p>
+                <p id="min"></p>
+                <p id="humidity"></p>
+                <p id="sunrise"></p>
+                <p id="sunset"></p>
+            </article>
 
-            <section>
+            <article>
                 <div class="card"></div>
-                <p class="headback2 paragraph3">Weather Forcast</p>
-            </section>
-
+                <p class="headback2 paragraph3">Weather Forecast</p>
+            </article>
+            <div class="adjustment"></div>
+            <div class="grid1">
+            </div>
         </div>
+            
 
     </main>
     <footer>
