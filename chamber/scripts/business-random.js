@@ -31,7 +31,6 @@ const displayCompanies = (companies) => {
         portrait.setAttribute('width', '250');
         portrait.setAttribute('height', '240');
 
-
         card.appendChild(fullName);
         card.appendChild(phone1);
         card.appendChild(email1);
