@@ -3,17 +3,27 @@ const cards = document.querySelector('#cards');
 async function getCompanyData() {
     const response = await fetch(url);
     const data = await response.json();
-    const shuffledData = shuffleArray(data);
-    const selectedData = shuffledData.slice(0, 3);
-    console.table(selectedData.companies);
-    displayCompanies(selectedData.companies);
+
+    function shuffleArray(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [array[i], array[j]] = [array[j], array[i]]; // Swap elements
+        }
+        return array;
+    }
+
+    const myArray = data.companies;
+    const shuffledArray = shuffleArray(myArray);
+    displayCompanies(shuffledArray);
 }
 
 getCompanyData();
 
-const displayCompanies = (selectedData) => {
-    selectedData.forEach((company) => {
+const displayCompanies = (companies) => {
+    companies.forEach((company) => {
+
         if (company.membership === 2 || company.membership === 3) {
+
             let card = document.createElement('section');
             let fullName = document.createElement('h2');
             let phone1 = document.createElement("p");
