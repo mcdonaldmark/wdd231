@@ -309,7 +309,7 @@
         margin-left: -100px;
         margin-top: 150px;
         line-height: 1.8;
-        margin-left: - 100px;
+        margin-left: -100px;
     }
 
     .grid1 {
@@ -340,6 +340,17 @@
     li {
         margin-left: 70px;
         margin-top: 40px;
+    }
+
+    .action {
+        position: relative;
+        border: 4px solid white;
+        font-size: 20px;
+        top: -200px;
+        text-decoration: none;
+        left: 60px;
+        color: white;
+        padding: 10px;
     }
 
     /* large view navigation ************************************/
@@ -650,5 +661,16 @@
 
         .card2 {
             display: contents;
+        }
+
+        .action {
+            position: relative;
+            border: 4px solid white;
+            font-size: 35px;
+            top: -700px;
+            text-decoration: none;
+            left: 100px;
+            color: white;
+            padding: 10px;
         }
     }
