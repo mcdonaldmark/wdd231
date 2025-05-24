@@ -220,7 +220,7 @@
         padding-bottom: 785px;
         padding: 1rem;
         text-align: center;
-        margin-bottom: 100px;
+        margin-bottom: 1100px;
         padding-bottom: 160px;
         padding-left: 100px;
         margin-left: -370px;
@@ -306,10 +306,10 @@
 
     .paragraph5 {
         font-size: 20px;
-        margin-left: -10px;
-        margin-top: 130px;
-        line-height: 1.8;
         margin-left: -100px;
+        margin-top: 150px;
+        line-height: 1.8;
+        margin-left: -  100px;
     }
 
     .grid1 {
@@ -635,7 +635,7 @@
         .paragraph5 {
             font-size: 20px;
             margin-left: -100px;
-            margin-top: 20px;
+            margin-top: 180px;
             line-height: 1.8;
         }
 
