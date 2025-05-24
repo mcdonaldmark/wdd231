@@ -332,7 +332,7 @@
 
         .hero {
             width: 220%;
-            height: 31%;
+            height: 40.8%;
         }
 
         .home {
@@ -427,7 +427,7 @@
             width: 0px;
             column-gap: 100px;
             margin-left: 240px;
-            margin-bottom: 800px;
+            margin-bottom: -800px;
             margin-top: -100px;
         }
 
@@ -446,7 +446,7 @@
         .adjustment {
             margin-left: 600px;
             margin-top: 300px;
-            margin-bottom: 500px;
+            margin-bottom: -1000px;
         }
 
         .paragraph4 {
