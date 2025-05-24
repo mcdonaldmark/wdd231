@@ -48,8 +48,8 @@ const displayCompanies = (companies) => {
             logo.setAttribute('src', company.logo);
             logo.setAttribute('alt', `${fullName}`);
             logo.setAttribute('loading', 'lazy');
-            logo.setAttribute('width', '250');
-            logo.setAttribute('height', '240');
+            logo.setAttribute('width', '200');
+            logo.setAttribute('height', '150');
 
             card.appendChild(fullName);
             card.appendChild(phone1);
