@@ -14,7 +14,8 @@ async function getCompanyData() {
 
     const myArray = data.companies;
     const shuffledArray = shuffleArray(myArray);
-    displayCompanies(shuffledArray);
+    const selectedCards = shuffledArray.slice(0, 3);
+    displayCompanies(selectedCards);
 }
 
 getCompanyData();
@@ -31,6 +32,7 @@ const displayCompanies = (companies) => {
             let url1 = document.createElement("a");
             let portrait = document.createElement('img');
             let membership1 = document.createElement('p');
+            let logo = document.createElement('img');
 
             fullName.textContent = `Company Name: ${company.name}`;
             phone1.textContent = `Company Phone: ${company.phone}`;
@@ -43,13 +45,18 @@ const displayCompanies = (companies) => {
             portrait.setAttribute('loading', 'lazy');
             portrait.setAttribute('width', '250');
             portrait.setAttribute('height', '240');
+            logo.setAttribute('src', company.logo);
+            logo.setAttribute('alt', `${fullName}`);
+            logo.setAttribute('loading', 'lazy');
+            logo.setAttribute('width', '250');
+            logo.setAttribute('height', '240');
 
             card.appendChild(fullName);
             card.appendChild(phone1);
             card.appendChild(email1);
             card.appendChild(membership1)
             card.appendChild(url1);
-            card.appendChild(portrait);
+            card.appendChild(logo);
 
             document.querySelector(".grid1").appendChild(card);
         }
