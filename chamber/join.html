@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber of Commerce Home Page</title>
+    <meta name="description" content="Chamber of Commerce Home Page">
+    <meta name="author" content="Mark McDonald">
+    <link rel="stylesheet" href="styles/join.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <script src="scripts/dates.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/join.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+    <meta property="og:title" content="Chamber of Commerce Home">
+    <meta property="og:description" content="Chamber of Commerce Home">
+    <meta property="og:url" content="https://mcdonaldmark.github.io/wdd231/chamber/directory.html">
+    <meta property="og:image" content="https://mcdonaldmark.github.io/wdd231/chamber/images/flag.webp" />
+</head>
+
+<body>
+    <header>
+        <h1 class="h2">Chamber of Commerce Membership Join Page</h1>
+        <p class="paragraph">Rocky Mountain Chamber of Commerce</p>
+        <img class="image" src="images/mountain.webp" alt="Valley Grove">
+        <button type="button" id="menu" title="Menu"></button>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Directory</a>
+            <a href="#">Join</a>
+            <a href="#">Discover</a>
+        </nav>
+    </header>
+    <main>
+
+        <div class="card">
+            <h2 class="application2">Membership Types</h2>
+            <div class="grid1">
+            </div>
+
+            <dialog id="dialogBox">
+                <ul>
+                    <li>Listing on the Chamber of Commerce Website</li>
+                    <li>Networking Opportunities</li>
+                    <li>Access to some local events</li>
+                    <li>Advocacy and Representation</li>
+                    <li>Recognition and Awards</li>
+                    <li>Community Outreach Programs</li>
+                </ul>
+                <button id="closeButton">Close</button>
+            </dialog>
+
+            <dialog id="dialogBox1">
+                <ul>
+                    <li>Listing on the Chamber of Commerce Website</li>
+                    <li>Networking Opportunities</li>
+                    <li>Access to some local events</li>
+                </ul>
+                <button id="closeButton1">Close</button>
+            </dialog>
+
+            <dialog id="dialogBox2">
+                <ul>
+                    <li>Listing on the Chamber of Commerce Website</li>
+                    <li>Networking Opportunities</li>
+                    <li>Access to most local events</li>
+                    <li>Access to some regional events</li>
+                    <li>Business Referrals</li>
+                    <li>Discounts</li>
+                    <li>Courses/Training</li>
+                </ul>
+                <button id="closeButton2">Close</button>
+            </dialog>
+
+            <dialog id="dialogBox3">
+                <ul>
+                    <li>Listing on the Chamber of Commerce Website</li>
+                    <li>Networking Opportunities</li>
+                    <li>Access to most local events</li>
+                    <li>Access to some regional events</li>
+                    <li>Business Referrals</li>
+                    <li>Discounts</li>
+                    <li>Courses/Training</li>
+                    <li>Annual Conference Training</li>
+                    <li>Mailing and Emailing Lists</li>
+                    <li>Social Media Posts</li>
+                </ul>
+                <button id="closeButton3">Close</button>
+            </dialog>
+        </div>
+
+        <h2 class="application">Membership Application</h2>
+
+        <form method="get" action="thankyou.html" class="pf1">
+
+            <fieldset>
+                <label><b>*First Name: </b><input type="text" name="firstName" id="firstName" title="First Name"
+                        required></label>
+            </fieldset>
+
+            <fieldset>
+                <label><b>*Last Name: </b><input type="text" name="lastName" id="lastName" title="Last Name"
+                        required></label>
+            </fieldset>
+
+            <fieldset>
+                <label><b>Organizational Title: </b><input type="text" name="orgTitle" id="orgTitle"
+                        title="Organizational Title"></label>
+            </fieldset>
+
+            <fieldset>
+                <label><b>*Email Address: </b><input type="email" name="email" id="email" title="Email" required
+                        placeholder="johndoe@doe.com"></label>
+            </fieldset>
+
+            <fieldset>
+                <label><b>*Mobile Phone Number: </b><input type="telephone" name="telephone" id="telephone"
+                        title="Telephone" required placeholder="123-456-7890"></label>
+            </fieldset>
+
+            <fieldset>
+                <label><b>*Business/Organization's Name: </b><input type="text" name="business" id="business"
+                        title="Business/Organizational Name" required></label>
+            </fieldset>
+
+            <fieldset>
+                <label><b>Membership Level: <span class="red">*</span> </b><select name="membership" id="membership"
+                        title="Membership">
+                        <option value="" selected="" disabled="disabled">Choose Membership...</option>
+                    </select>
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <label><b>Business/Organizational Description: </b><textarea name="writeDescription"
+                        id="writeDescription" title="Business/Organizational Description"></textarea></label>
+            </fieldset>
+
+            <input type="hidden" name="timestamp" id="timestamp">
+
+            <input type="submit" value="Become a Member!">
+
+            <p class="p1">* Required Field</p>
+
+        </form>
+
+    </main>
+    <footer>
+        <p class="paragraph1">Rocky Mountain Chamber of Commerce</p>
+        <p class="paragraph1">100 Rockey Mountain Lane</p>
+        <p class="paragraph1">Salt Lake City, UT 84044</p>
+        <p class="paragraph1">info@rockymtnchamber.org</p>
+        <p class="paragraph1">123-456-7890</p>
+        <div class="paraform"></div>
+        <div class="socialcontainer">
+            <img class="social" src="images/facebook.png" alt="Facebook" width="50" height="50">
+            <img class="social" src="images/linkedin.png" alt="Facebook" width="50" height="50">
+            <img class="social" src="images/twitter.png" alt="Facebook" width="50" height="50">
+        </div>
+        <div class="paracontainer">
+            <p class="paragraph2">&#169;<span id="currentyear"></span> 🌵 Mark McDonald 🌵 Utah</p>
+            <p class="paragraph2">Last Modified: <span id="modified"></span></p>
+        </div>
+    </footer>
+</body>
+
+</html>
