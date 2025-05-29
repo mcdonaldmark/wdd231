@@ -182,7 +182,7 @@ footer {
     max-width: 400px;
 }
 
-.pf1 input[type="telephone"] {
+.pf1 input[type="tel"] {
     display: block;
     border: solid 1px #DDD5F3;
     border-radius: 6px;
@@ -308,7 +308,7 @@ section {
     margin-bottom: -150px;
 }
 
-:modal {
+section:modal {
     margin-left: 50px;
     margin-top: 400px;
     padding: 20px 20px 20px 20px;
@@ -660,7 +660,7 @@ section {
         margin-bottom: -150px;
     }
 
-    :modal {
+    section:modal {
         margin-left: 700px;
         margin-top: 400px;
         padding: 20px 20px 20px 20px;
