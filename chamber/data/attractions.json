@@ -10,7 +10,12 @@
                 "zip": "84062"
             },
             "title": "Battle Creek Falls",
-            "image": "chamber/images/battlecreek1.webp",
+            "image": [
+                {
+                    "name": "Battle Creek Falls",
+                    "path": "chamber/images/battlecreek1.webp"
+                }
+            ],
             "description": "Enjoy this 4.1-mile out-and-back trail near Lindon, Utah. Generally considered a challenging route, it takes an average of 3 h 8 min to complete. This is a very popular area for backpacking, camping, and hiking, so you'll likely encounter other people while exploring. The best times to visit this trail are March through October. Dogs are welcome and may be off-leash in some areas."
         },
         {
