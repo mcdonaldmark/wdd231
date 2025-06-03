@@ -10,7 +10,7 @@
                 "zip": "84062"
             },
             "title": "Battle Creek Falls",
-            "image": "./images/battlecreek1.webp",
+            "image": "images/battlecreek1.webp",
             "description": "Enjoy this 4.1-mile out-and-back trail near Lindon, Utah. Generally considered a challenging route, it takes an average of 3 h 8 min to complete. This is a very popular area for backpacking, camping, and hiking, so you'll likely encounter other people while exploring. The best times to visit this trail are March through October. Dogs are welcome and may be off-leash in some areas."
         },
         {
@@ -36,7 +36,7 @@
                 "zip": "84062"
             },
             "title": "The Grid",
-            "image": "chamber/images/images/thegrid3.webp",
+            "image": "images/thegrid3.webp",
             "description": "Entertainment venue boasting the world's second-longest indoor go-kart track, plus an arcade."
         },
         {
@@ -49,7 +49,7 @@
                 "zip": "84062"
             },
             "title": "Clear Water Distilling Co.",
-            "image": "chamber/images/clearwaterdistilling4.webp",
+            "image": "images/clearwaterdistilling4.webp",
             "description": "Like craft brewing, our distillery makes spirits/products based on a target flavor idea instead of a category."
         },
         {
@@ -62,7 +62,7 @@
                 "zip": "84062"
             },
             "title": "Big Baldy",
-            "image": "chamber/images/bigbaldy5.webp",
+            "image": "images/bigbaldy5.webp",
             "description": "Discover this 6.9-mile out-and-back trail near Pleasant Grove, Utah. Generally considered a challenging route, it takes an average of 5 h 30 min to complete. This is a very popular area for hiking, so you'll likely encounter other people while exploring. The best times to visit this trail are April through October. Dogs are welcome, but must be on a leash."
         },
         {
@@ -75,7 +75,7 @@
                 "zip": "84062"
             },
             "title": "Premier Axe Throwing",
-            "image": "chamber/images/premieraxe6.webp",
+            "image": "images/premieraxe6.webp",
             "description": "As Utah's Largest Axe Throwing venue we can accommodate up to 150 guests. We excel at hosting birthday parties, bachelor/bachelorette parties, corporate events, and more!"
         },
         {
@@ -88,7 +88,7 @@
                 "zip": "84062"
             },
             "title": "Elegantera Vintage Boutique",
-            "image": "chamber/images/vintageboutique7.webp",
+            "image": "images/vintageboutique7.webp",
             "description": "ElegantEra Vintage is a charming vintage store nestled in Pleasant Grove, UT, offering a curated selection of timeless and unique clothing and accessories."
         },
         {
@@ -101,7 +101,7 @@
                 "zip": "84062"
             },
             "title": "Rosebud Antiques",
-            "image": "chamber/images/rosebudantiques8.webp",
+            "image": "images/rosebudantiques8.webp",
             "description": "Rosebud Antiques awaits your visit in the charming heart of downtown Pleasant Grove, Utah. Established back in 1997 by the visionary Maxine Radmall, this gem of a store is housed in a historic mercantile dating all the way back to 1903. Step through our doors and embark on a journey through time."
         }
     ]
