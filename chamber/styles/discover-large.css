@@ -1,0 +1,44 @@
+@media (min-width: 1024px) {
+
+    * {
+        margin: 0px;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    section h2 {
+        grid-area: name;
+        padding-bottom: 10px;
+    }
+
+    section img {
+        grid-area: image;
+        padding-bottom: 10px;
+    }
+
+    section address {
+        grid-area: address1, address2;
+        padding-bottom: 0px;
+    }
+
+    section p {
+        grid-area: description;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        text-align: justify;
+    }
+
+    section button {
+        grid-area: button;
+        padding-bottom: 10px;
+    }
+
+    .grid1 img:hover {
+        box-shadow: 0 0 50px #333;
+    }
+}

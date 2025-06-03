@@ -15,8 +15,7 @@ const displayAttractions = (attractions) => {
         let title = document.createElement('h2');
         let figure = document.createElement('figure');
         let image = document.createElement('img');
-        let address1 = document.createElement("address");
-        let address2 = document.createElement("address");
+        let address = document.createElement("address");
         let description = document.createElement('p');
         let button = document.createElement('button');
 
@@ -26,8 +25,7 @@ const displayAttractions = (attractions) => {
         image.setAttribute('loading', 'lazy');
         image.setAttribute('width', '300');
         image.setAttribute('height', '200');
-        address1.textContent = `${attraction.address.street}`
-        address2.textContent = `${attraction.address.city}, ${attraction.address.state}, ${attraction.address.zip}`;
+        address.textContent = `${attraction.address.street}, ${attraction.address.city}, ${attraction.address.state}, ${attraction.address.zip}`;
         description.textContent = `Description: ${attraction.description}`;
         button.textContent = `Learn More`;
 
@@ -36,8 +34,7 @@ const displayAttractions = (attractions) => {
 
         card.appendChild(title);
         card.appendChild(figure);
-        card.appendChild(address1);
-        card.appendChild(address2);
+        card.appendChild(address);
         card.appendChild(description);
         card.appendChild(button);
 

@@ -1,0 +1,62 @@
+@media (min-width: 640px) {
+
+    * {
+        margin: 0px;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    section {
+        border: 2px solid #ccc;
+        border-radius: 20px;
+        width: 800px;
+        padding: 10px 5px 10px 5px;
+        margin: 20px;
+        text-align: center;
+        line-height: 25px;
+        background-color: whitesmoke;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        display: grid;
+        grid-template-areas:
+            "image name"
+            "image address"
+            "image description"
+            "image button";
+    }
+
+    section h2 {
+        grid-area: name;
+        padding-bottom: 10px;
+    }
+
+    section img {
+        grid-area: image;
+        padding-bottom: 10px;
+    }
+
+    section address {
+        grid-area: address1, address2;
+        padding-bottom: 0px;
+        margin-top: -170px;
+    }
+
+    section p {
+        grid-area: description;
+        padding-bottom: 20px;
+        text-align: justify;
+        margin-top: -150px;
+        padding-left: 20px;
+        margin-right: 20px;
+    }
+
+    section button {
+        grid-area: button;
+        padding-bottom: 10px;
+        width: 450px;
+        margin-left: 20px;
+    }
+
+    .grid1 img:hover {
+        box-shadow: 0 0 50px #333;
+    }
+}
