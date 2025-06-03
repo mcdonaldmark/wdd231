@@ -23,7 +23,7 @@
                 "zip": "84062"
             },
             "title": "Discovery (Manila) Park",
-            "image": "discoverypark2.webp",
+            "image": "chamber/images/discoverypark2.webp",
             "description": "Park with a playground and picnic tables, as well as tennis, pickleball, and baseball facilities."
         },
         {
@@ -36,7 +36,7 @@
                 "zip": "84062"
             },
             "title": "The Grid",
-            "image": "images\thegrid3.webp",
+            "image": "chamber/images/images/thegrid3.webp",
             "description": "Entertainment venue boasting the world's second-longest indoor go-kart track, plus an arcade."
         },
         {
@@ -49,7 +49,7 @@
                 "zip": "84062"
             },
             "title": "Clear Water Distilling Co.",
-            "image": "clearwaterdistilling4.webp",
+            "image": "chamber/images/clearwaterdistilling4.webp",
             "description": "Like craft brewing, our distillery makes spirits/products based on a target flavor idea instead of a category."
         },
         {
@@ -62,7 +62,7 @@
                 "zip": "84062"
             },
             "title": "Big Baldy",
-            "image": "images\bigbaldy5.webp",
+            "image": "chamber/images/bigbaldy5.webp",
             "description": "Discover this 6.9-mile out-and-back trail near Pleasant Grove, Utah. Generally considered a challenging route, it takes an average of 5 h 30 min to complete. This is a very popular area for hiking, so you'll likely encounter other people while exploring. The best times to visit this trail are April through October. Dogs are welcome, but must be on a leash."
         },
         {
@@ -75,7 +75,7 @@
                 "zip": "84062"
             },
             "title": "Premier Axe Throwing",
-            "image": "premieraxe6.webp",
+            "image": "chamber/images/premieraxe6.webp",
             "description": "As Utah's Largest Axe Throwing venue we can accommodate up to 150 guests. We excel at hosting birthday parties, bachelor/bachelorette parties, corporate events, and more!"
         },
         {
@@ -88,7 +88,7 @@
                 "zip": "84062"
             },
             "title": "Elegantera Vintage Boutique",
-            "image": "vintageboutique7.webp",
+            "image": "chamber/images/vintageboutique7.webp",
             "description": "ElegantEra Vintage is a charming vintage store nestled in Pleasant Grove, UT, offering a curated selection of timeless and unique clothing and accessories."
         },
         {
@@ -101,7 +101,7 @@
                 "zip": "84062"
             },
             "title": "Rosebud Antiques",
-            "image": "images\rosebudantiques8.webp",
+            "image": "chamber/images/rosebudantiques8.webp",
             "description": "Rosebud Antiques awaits your visit in the charming heart of downtown Pleasant Grove, Utah. Established back in 1997 by the visionary Maxine Radmall, this gem of a store is housed in a historic mercantile dating all the way back to 1903. Step through our doors and embark on a journey through time."
         }
     ]
