@@ -58,13 +58,14 @@
         .paragraph {
             font-size: 20px;
             margin-left: -430px;
+            margin-top: -110px;
         }
 
         nav {
             display: flex;
             flex-direction: row;
             align-items: center;
-            margin-top: -190px;
+            margin-top: -80px;
             margin-left: 1000px;
             font-size: 22px;
             padding-bottom: 35px;
@@ -87,7 +88,7 @@
 
         .image {
             border-radius: 30px;
-            margin-left: -1200px;
+            margin-left: -1192px;
             margin-top: -110px;
             width: 190px;
             height: 140px;
@@ -107,7 +108,7 @@
             font-weight: 900;
             font-size: 22px;
             padding-left: 500px;
-            margin-top: 300px;
+            margin-top: 650px;
             margin-left: -400px;
         }
 

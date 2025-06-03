@@ -1,0 +1,108 @@
+{
+    "attractions": [
+        {
+            "name": "Battle Creek Falls",
+            "address": {
+                "street": "Battle Creek Trail",
+                "city": "Pleasant Grove",
+                "state": "Utah",
+                "country": "United States",
+                "zip": "84062"
+            },
+            "title": "Battle Creek Falls",
+            "image": "images\battlecreek1.webp",
+            "description": "Enjoy this 4.1-mile out-and-back trail near Lindon, Utah. Generally considered a challenging route, it takes an average of 3 h 8 min to complete. This is a very popular area for backpacking, camping, and hiking, so you'll likely encounter other people while exploring. The best times to visit this trail are March through October. Dogs are welcome and may be off-leash in some areas."
+        },
+        {
+            "name": "Discovery (Manila) Park",
+            "address": {
+                "street": "1511 N 100 E",
+                "city": "Pleasant Grove",
+                "state": "Utah",
+                "country": "United States",
+                "zip": "84062"
+            },
+            "title": "Discovery (Manila) Park",
+            "image": "discoverypark2.webp",
+            "description": "Park with a playground and picnic tables, as well as tennis, pickleball, and baseball facilities."
+        },
+        {
+            "name": "The Grid",
+            "address": {
+                "street": "593 S Evermore Ln",
+                "city": "Pleasant Grove",
+                "state": "Utah",
+                "country": "United States",
+                "zip": "84062"
+            },
+            "title": "The Grid",
+            "image": "images\thegrid3.webp",
+            "description": "Entertainment venue boasting the world's second-longest indoor go-kart track, plus an arcade."
+        },
+        {
+            "name": "Clear Water Distilling Co.",
+            "address": {
+                "street": "564 W 700 S Suite 401",
+                "city": "Pleasant Grove",
+                "state": "Utah",
+                "country": "United States",
+                "zip": "84062"
+            },
+            "title": "Clear Water Distilling Co.",
+            "image": "clearwaterdistilling4.webp",
+            "description": "Like craft brewing, our distillery makes spirits/products based on a target flavor idea instead of a category."
+        },
+        {
+            "name": "Big Baldy",
+            "address": {
+                "street": "Big Baldy Trail",
+                "city": "Pleasant Grove",
+                "state": "Utah",
+                "country": "United States",
+                "zip": "84062"
+            },
+            "title": "Big Baldy",
+            "image": "images\bigbaldy5.webp",
+            "description": "Discover this 6.9-mile out-and-back trail near Pleasant Grove, Utah. Generally considered a challenging route, it takes an average of 5 h 30 min to complete. This is a very popular area for hiking, so you'll likely encounter other people while exploring. The best times to visit this trail are April through October. Dogs are welcome, but must be on a leash."
+        },
+        {
+            "name": "Premier Axe Throwing",
+            "address": {
+                "street": "564 W 700 S, Suite 201",
+                "city": "Pleasant Grove",
+                "state": "Utah",
+                "country": "United States",
+                "zip": "84062"
+            },
+            "title": "Premier Axe Throwing",
+            "image": "premieraxe6.webp",
+            "description": "As Utah's Largest Axe Throwing venue we can accommodate up to 150 guests. We excel at hosting birthday parties, bachelor/bachelorette parties, corporate events, and more!"
+        },
+        {
+            "name": "Elegantera Vintage Boutique",
+            "address": {
+                "street": "587 W State St STE 3A",
+                "city": "Pleasant Grove",
+                "state": "Utah",
+                "country": "United States",
+                "zip": "84062"
+            },
+            "title": "Elegantera Vintage Boutique",
+            "image": "vintageboutique7.webp",
+            "description": "ElegantEra Vintage is a charming vintage store nestled in Pleasant Grove, UT, offering a curated selection of timeless and unique clothing and accessories."
+        },
+        {
+            "name": "Rosebud Antiques",
+            "address": {
+                "street": "15 S Main St",
+                "city": "Pleasant Grove",
+                "state": "Utah",
+                "country": "United States",
+                "zip": "84062"
+            },
+            "title": "Rosebud Antiques",
+            "image": "images\rosebudantiques8.webp",
+            "description": "Rosebud Antiques awaits your visit in the charming heart of downtown Pleasant Grove, Utah. Established back in 1997 by the visionary Maxine Radmall, this gem of a store is housed in a historic mercantile dating all the way back to 1903. Step through our doors and embark on a journey through time."
+        }
+    ]
+}
