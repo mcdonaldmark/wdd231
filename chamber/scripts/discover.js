@@ -18,6 +18,7 @@ const displayAttractions = (attractions) => {
         let address1 = document.createElement("address");
         let address2 = document.createElement("address");
         let description = document.createElement('p');
+        let button = document.createElement('button');
 
         title.textContent = `${attraction.title}`;
         image.setAttribute('src', attraction.image);
@@ -28,6 +29,8 @@ const displayAttractions = (attractions) => {
         address1.textContent = `${attraction.address.street}`
         address2.textContent = `${attraction.address.city}, ${attraction.address.state}, ${attraction.address.zip}`;
         description.textContent = `Description: ${attraction.description}`;
+        button.textContent = `Learn More`;
+
 
         figure.appendChild(image);
 
@@ -36,6 +39,7 @@ const displayAttractions = (attractions) => {
         card.appendChild(address1);
         card.appendChild(address2);
         card.appendChild(description);
+        card.appendChild(button);
 
         document.querySelector(".grid1").appendChild(card);
     }
