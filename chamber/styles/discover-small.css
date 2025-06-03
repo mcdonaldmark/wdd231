@@ -63,20 +63,19 @@
 
  nav {
      display: flex;
-     flex-direction: row;
-     align-items: center;
-     margin-top: -80px;
-     margin-left: 1000px;
-     font-size: 22px;
-     padding-bottom: 35px;
+     flex-direction: column;
+     list-style: none;
+     margin-left: -600px;
  }
 
  nav a {
+     display: none;
+     text-align: center;
+     text-decoration: none;
      color: white;
      padding: 30px 20px;
      text-align: center;
      text-decoration: none;
-     display: inline-block;
      font-family: "Roboto", sans-serif;
      font-weight: 900;
  }
@@ -188,4 +187,26 @@
  section button {
      grid-area: button;
      padding-bottom: 10px;
+ }
+
+ #menu {
+     font-size: 1.5rem;
+     border: 0;
+     background: none;
+     color: white;
+     position: absolute;
+     top: 1rem;
+     right: 2rem;
+ }
+
+ #menu::before {
+     content: "☰";
+ }
+
+ #menu.open::before {
+     content: "❌";
+ }
+
+ .open a {
+     display: block;
  }

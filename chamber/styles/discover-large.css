@@ -41,4 +41,46 @@
     .grid1 img:hover {
         box-shadow: 0 0 50px #333;
     }
+
+        #menu {
+            display: none;
+            /* hide hamburger button */
+        }
+    
+        #menu::before {
+            content: "☰";
+        }
+    
+        #menu.open::before {
+            content: "❌";
+        }
+    
+        .open a {
+            display: block;
+        }
+
+                nav {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    margin-top: -190px;
+                    margin-left: 1000px;
+                    font-size: 22px;
+                    padding-bottom: 35px;
+                }
+        
+                nav a {
+                    color: white;
+                    padding: 30px 20px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    font-family: "Roboto", sans-serif;
+                    font-weight: 900;
+                }
+        
+                nav a:hover {
+                    text-decoration: underline;
+                    text-decoration-color: white;
+                }
 }
