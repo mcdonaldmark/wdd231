@@ -157,7 +157,7 @@
     }
 
     section address {
-        grid-area: address1, address2;
+        grid-area: address;
         padding-bottom: 0px;
     }
 

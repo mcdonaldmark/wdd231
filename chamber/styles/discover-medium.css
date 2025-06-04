@@ -177,7 +177,7 @@
     }
 
     section address {
-        grid-area: address1, address2;
+        grid-area: address;
         padding-bottom: 0px;
         margin-top: -170px;
     }
@@ -245,7 +245,16 @@
     }
 
     #message {
-        width: 800px;
-        margin-bottom: -400px;
-    }
+        margin-top: 100px;
+            margin-left: 100px;
+            border: 2px solid #ccc;
+            border-radius: 20px;
+            width: 450px;
+            padding: 10px 5px 10px 5px;
+            margin: 20px;
+            text-align: center;
+            line-height: 25px;
+            background-color: whitesmoke;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
 }
