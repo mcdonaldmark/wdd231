@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles/index-large.css">
+    <link rel="stylesheet" href="styles/index-small.css">
+    <script src="scripts/index.js" defer></script>
+    <meta name="description" content="Site Plan">
+    <meta name="author" content="Mark McDonald">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Tangerine:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img class="shrink" src="images/logo.png" alt="logo">
+        <h1 class="title3">A Little Taste of Ecuador</h1>
+        <nav>
+            <a href="https://mcdonaldmark.github.io/wdd131/project/index.html">Home</a>
+            <a href="https://mcdonaldmark.github.io/wdd131/project/about.html">About Me</a>
+            <a href="https://mcdonaldmark.github.io/wdd131/project/menu.html">Menu</a>
+        </nav>
+    </header>
+
+
+    <section class="footer3">
+    </section>
+    <footer>
+        <p>&#169;<span id="currentyear"></span> 🌵 Mark McDonald 🌵 Utah</p>
+        <p class="text">Last Modified: <span id="modified"></span></p>
+
+        <nav class="nav1">
+            <a href="https://facebook.com">
+                <img class="socialmedia" src="images/facebook.svg" alt="Facebook" width="50" height="50">
+            </a>
+            <a href="https://linkedin.com">
+                <img class="socialmedia" src="images/linkedin.svg" alt="LinkedIn" width="50" height="50">
+            </a>
+            <a href="https://twitter.com">
+                <img class="socialmedia" src="images/twitter.svg" alt="Twitter" width="50" height="50">
+            </a>
+        </nav>
+    </footer>
+    <script>
+
+        const testimonials = document.querySelectorAll('.testimonial');
+        let index = 0;
+
+        function showTestimonial(n) {
+
+            testimonials.forEach(testimonial => testimonial.style.display = 'none');
+
+            testimonials[n].style.display = 'block';
+        }
+
+        function nextTestimonial() {
+            index++;
+            if (index >= testimonials.length) {
+                index = 0;
+            }
+            showTestimonial(index);
+        }
+
+        showTestimonial(index);
+
+        setInterval(nextTestimonial, 6000);
+    </script>
+</body>
+
+</html>
