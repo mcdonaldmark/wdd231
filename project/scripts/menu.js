@@ -16,7 +16,7 @@ const displayCuisine = (cuisine) => {
         let portrait = document.createElement('img');
         let description = document.createElement('p');
 
-        name.textContent = `Company Name: ${item.name}`;
+        name.textContent = `${item.name}`;
         description.textContent = `${item.description}`;
         portrait.setAttribute('src', item.image);
         portrait.setAttribute('alt', item.name);
