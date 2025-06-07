@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles/index-large.css">
     <link rel="stylesheet" href="styles/index-small.css">
     <script src="scripts/index.js" defer></script>
+    <script src="scripts/testimonial.js" defer></script>
     <meta name="description" content="Site Plan">
     <meta name="author" content="Mark McDonald">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -86,30 +87,6 @@
             </a>
         </nav>
     </footer>
-    <script>
-
-        const testimonials = document.querySelectorAll('.testimonial');
-        let index = 0;
-
-        function showTestimonial(n) {
-
-            testimonials.forEach(testimonial => testimonial.style.display = 'none');
-
-            testimonials[n].style.display = 'block';
-        }
-
-        function nextTestimonial() {
-            index++;
-            if (index >= testimonials.length) {
-                index = 0;
-            }
-            showTestimonial(index);
-        }
-
-        showTestimonial(index);
-
-        setInterval(nextTestimonial, 6000);
-    </script>
 </body>
 
 </html>
