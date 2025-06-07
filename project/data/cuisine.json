@@ -161,7 +161,7 @@
         },
         {
             "name": "Bolón de Verde",
-            "category": "Breakfast / Snack",
+            "category": "Breakfast",
             "region": "Coastal",
             "ingredients": [
                 "green plantains",
@@ -214,7 +214,7 @@
         },
         {
             "name": "Morocho",
-            "category": "Drink / Dessert",
+            "category": "Drink",
             "region": "Nationwide",
             "ingredients": [
                 "cracked corn",
