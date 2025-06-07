@@ -1,0 +1,230 @@
+{
+    "country": "Ecuador",
+    "cuisine": [
+        {
+            "name": "Shrimp Ceviche",
+            "category": "Main Dish",
+            "region": "Coastal",
+            "ingredients": [
+                "shrimp",
+                "lime juice",
+                "red onion",
+                "tomato",
+                "cilantro",
+                "salt",
+                "chili pepper"
+            ],
+            "image": "",
+            "description": "Seafood marinated in citrus juice, commonly served with popcorn or plantain chips."
+        },
+        {
+            "name": "Fish Ceviche",
+            "category": "Main Dish",
+            "region": "Coastal",
+            "ingredients": [
+                "fish",
+                "lime juice",
+                "red onion",
+                "tomato",
+                "cilantro",
+                "salt",
+                "chili pepper"
+            ],
+            "image": "",
+            "description": "Seafood marinated in citrus juice, commonly served with popcorn or plantain chips."
+        },
+        {
+            "name": "Hornado",
+            "category": "Main Dish",
+            "region": "Andes",
+            "ingredients": [
+                "roast pork",
+                "llapingachos",
+                "mote",
+                "avocado",
+                "salad"
+            ],
+            "image": "",
+            "description": "Slow-roasted pork served with corn, potatoes, and sides."
+        },
+        {
+            "name": "Fanesca",
+            "category": "Soup",
+            "region": "Nationwide (seasonal)",
+            "ingredients": [
+                "salt cod",
+                "pumpkin",
+                "beans",
+                "corn",
+                "milk",
+                "peanuts",
+                "hard-boiled eggs"
+            ],
+            "image": "",
+            "description": "A traditional soup eaten during Holy Week, made with grains, cod, and dairy."
+        },
+        {
+            "name": "Llapingachos",
+            "category": "Snack",
+            "region": "Andes",
+            "ingredients": [
+                "potatoes",
+                "cheese",
+                "onions",
+                "achiote"
+            ],
+            "image": "",
+            "description": "Fried potato patties stuffed with cheese, often served with sausage or egg."
+        },
+        {
+            "name": "Empanadas de Viento",
+            "category": "Snack",
+            "region": "Highlands",
+            "ingredients": [
+                "wheat flour",
+                "cheese",
+                "sugar",
+                "oil"
+            ],
+            "image": "",
+            "description": "Fried cheese empanadas sprinkled with sugar."
+        },
+        {
+            "name": "Helado de Paila",
+            "category": "Dessert",
+            "region": "Imbabura",
+            "ingredients": [
+                "fruit",
+                "sugar",
+                "ice"
+            ],
+            "image": "",
+            "description": "Artisan fruit sorbet made using a bronze pan over ice."
+        },
+        {
+            "name": "Churrasco",
+            "category": "Main Dish",
+            "region": "Nationwide",
+            "ingredients": [
+                "grilled beef",
+                "fried egg",
+                "rice",
+                "plantain",
+                "salad",
+                "avocado"
+            ],
+            "image": "",
+            "description": "A hearty dish featuring grilled meat served with various sides."
+        },
+        {
+            "name": "Encebollado",
+            "category": "Soup",
+            "region": "Coastal",
+            "ingredients": [
+                "tuna",
+                "cassava",
+                "onion",
+                "tomato",
+                "cilantro",
+                "lime"
+            ],
+            "image": "",
+            "description": "A popular fish stew served hot, often for breakfast."
+        },
+        {
+            "name": "Guatita",
+            "category": "Main Dish",
+            "region": "Nationwide",
+            "ingredients": [
+                "beef tripe",
+                "potatoes",
+                "peanut sauce",
+                "onions",
+                "spices"
+            ],
+            "image": "",
+            "description": "Beef tripe in a rich peanut sauce, served with rice and avocado."
+        },
+        {
+            "name": "Seco de Chivo",
+            "category": "Main Dish",
+            "region": "Andes / Coastal",
+            "ingredients": [
+                "goat meat",
+                "beer",
+                "naranjilla juice",
+                "onion",
+                "garlic",
+                "cumin"
+            ],
+            "image": "",
+            "description": "Goat stew slowly cooked in a citrus-beer sauce, served with rice and plantains."
+        },
+        {
+            "name": "Bolón de Verde",
+            "category": "Breakfast / Snack",
+            "region": "Coastal",
+            "ingredients": [
+                "green plantains",
+                "cheese or chicharrón",
+                "butter",
+                "salt"
+            ],
+            "image": "",
+            "description": "Fried mashed green plantain balls often stuffed with cheese or pork."
+        },
+        {
+            "name": "Yaguarlocro",
+            "category": "Soup",
+            "region": "Highlands",
+            "ingredients": [
+                "potatoes",
+                "lamb",
+                "blood sausage",
+                "avocado",
+                "onion"
+            ],
+            "image": "",
+            "description": "Hearty potato and lamb stew topped with fried blood sausage and avocado."
+        },
+        {
+            "name": "Chicha de Jora",
+            "category": "Drink",
+            "region": "Sierra / Amazon",
+            "ingredients": [
+                "fermented corn",
+                "spices",
+                "sugar"
+            ],
+            "image": "",
+            "description": "Traditional Andean fermented corn drink, often used in ceremonies."
+        },
+        {
+            "name": "Tigrillo",
+            "category": "Breakfast",
+            "region": "Coastal",
+            "ingredients": [
+                "ripe plantains",
+                "cheese",
+                "eggs",
+                "milk",
+                "onions"
+            ],
+            "image": "",
+            "description": "Savory breakfast mash made with ripe plantains, cheese, and eggs."
+        },
+        {
+            "name": "Morocho",
+            "category": "Drink / Dessert",
+            "region": "Nationwide",
+            "ingredients": [
+                "cracked corn",
+                "milk",
+                "cinnamon",
+                "sugar"
+            ],
+            "image": "",
+            "description": "Sweet, thick corn-based drink flavored with cinnamon, served warm."
+        }
+    ]
+}
