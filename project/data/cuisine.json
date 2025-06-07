@@ -13,7 +13,7 @@
                 "salt",
                 "chili pepper"
             ],
-            "image": "",
+            "image": "project/images/shrimpceviche.webp",
             "description": "Seafood marinated in citrus juice, commonly served with popcorn or plantain chips."
         },
         {
@@ -29,7 +29,7 @@
                 "salt",
                 "chili pepper"
             ],
-            "image": "",
+            "image": "images/shrimpceviche.webp",
             "description": "Seafood marinated in citrus juice, commonly served with popcorn or plantain chips."
         },
         {
@@ -43,7 +43,7 @@
                 "avocado",
                 "salad"
             ],
-            "image": "",
+            "image": "images/shrimpceviche.webp",
             "description": "Slow-roasted pork served with corn, potatoes, and sides."
         },
         {
@@ -59,7 +59,7 @@
                 "peanuts",
                 "hard-boiled eggs"
             ],
-            "image": "",
+            "image": "images/shrimpceviche.webp",
             "description": "A traditional soup eaten during Holy Week, made with grains, cod, and dairy."
         },
         {
@@ -72,7 +72,7 @@
                 "onions",
                 "achiote"
             ],
-            "image": "",
+            "image": "images/shrimpceviche.webp",
             "description": "Fried potato patties stuffed with cheese, often served with sausage or egg."
         },
         {
@@ -85,7 +85,7 @@
                 "sugar",
                 "oil"
             ],
-            "image": "",
+            "image": "images/shrimpceviche.webp",
             "description": "Fried cheese empanadas sprinkled with sugar."
         },
         {
@@ -97,7 +97,7 @@
                 "sugar",
                 "ice"
             ],
-            "image": "",
+            "image": "images/shrimpceviche.webp",
             "description": "Artisan fruit sorbet made using a bronze pan over ice."
         },
         {
@@ -112,7 +112,7 @@
                 "salad",
                 "avocado"
             ],
-            "image": "",
+            "image": "images/shrimpceviche.webp",
             "description": "A hearty dish featuring grilled meat served with various sides."
         },
         {
@@ -127,7 +127,7 @@
                 "cilantro",
                 "lime"
             ],
-            "image": "",
+            "image": "images/shrimpceviche.webp",
             "description": "A popular fish stew served hot, often for breakfast."
         },
         {
@@ -141,7 +141,7 @@
                 "onions",
                 "spices"
             ],
-            "image": "",
+            "image": "images/shrimpceviche.webp",
             "description": "Beef tripe in a rich peanut sauce, served with rice and avocado."
         },
         {
@@ -156,7 +156,7 @@
                 "garlic",
                 "cumin"
             ],
-            "image": "",
+            "image": "images/shrimpceviche.webp",
             "description": "Goat stew slowly cooked in a citrus-beer sauce, served with rice and plantains."
         },
         {
@@ -169,7 +169,7 @@
                 "butter",
                 "salt"
             ],
-            "image": "",
+            "image": "images/shrimpceviche.webp",
             "description": "Fried mashed green plantain balls often stuffed with cheese or pork."
         },
         {
@@ -183,7 +183,7 @@
                 "avocado",
                 "onion"
             ],
-            "image": "",
+            "image": "images/shrimpceviche.webp",
             "description": "Hearty potato and lamb stew topped with fried blood sausage and avocado."
         },
         {
@@ -195,7 +195,7 @@
                 "spices",
                 "sugar"
             ],
-            "image": "",
+            "image": "images/shrimpceviche.webp",
             "description": "Traditional Andean fermented corn drink, often used in ceremonies."
         },
         {
@@ -209,7 +209,7 @@
                 "milk",
                 "onions"
             ],
-            "image": "",
+            "image": "images/shrimpceviche.webp",
             "description": "Savory breakfast mash made with ripe plantains, cheese, and eggs."
         },
         {
@@ -222,7 +222,7 @@
                 "cinnamon",
                 "sugar"
             ],
-            "image": "",
+            "image": "images/shrimpceviche.webp",
             "description": "Sweet, thick corn-based drink flavored with cinnamon, served warm."
         }
     ]
