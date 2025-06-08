@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles/index-large.css">
     <link rel="stylesheet" href="styles/index-small.css">
     <script src="scripts/index.js" defer></script>
+    <script src="scripts/contact.js" defer></script>
     <meta name="description" content="About">
     <meta name="author" content="Mark McDonald">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -46,11 +47,6 @@
         </fieldset>
     
         <fieldset>
-            <label><b>Organizational Title: </b><input type="text" name="orgTitle" id="orgTitle"
-                    title="Organizational Title"></label>
-        </fieldset>
-    
-        <fieldset>
             <label><b>*Email Address: </b><input type="email" name="email" id="email" title="Email" required
                     placeholder="johndoe@doe.com"></label>
         </fieldset>
@@ -60,20 +56,15 @@
         </fieldset>
     
         <fieldset>
-            <label><b>*Business/Organization's Name: </b><input type="text" name="business" id="business"
-                    title="Business/Organizational Name" required></label>
-        </fieldset>
-    
-        <fieldset>
-            <label><b>Membership Level: <span class="red">*</span> </b><select name="membership" id="membership"
-                    title="Membership">
-                    <option value="" selected="" disabled="disabled">Choose Membership...</option>
+            <label><b>Which product do you have a question about? <span class="red">*</span> </b><select name="productName" id="productName"
+                    title="Product Name">
+                    <option value="" selected="" disabled="disabled">Choose Product...</option>
                 </select>
             </label>
         </fieldset>
     
         <fieldset>
-            <label><b>Business/Organizational Description: </b><textarea name="writeDescription" id="writeDescription"
+            <label><b>Message </b><textarea name="writeDescription" id="writeDescription"
                     title="Business/Organizational Description"></textarea></label>
         </fieldset>
     
