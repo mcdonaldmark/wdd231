@@ -44,7 +44,7 @@
                 "salad"
             ],
             "image": "images/hornado.webp",
-            "description": "Slow-roasted pork served with corn, potatoes, and sides."
+            "description": "Slow-roasted pork served with corn, potatoes, and other delicious sides."
         },
         {
             "name": "Fanesca",
@@ -157,7 +157,7 @@
                 "cumin"
             ],
             "image": "images/seco-de-chivo.webp",
-            "description": "Goat stew slowly cooked in a citrus-beer sauce, served with rice and plantains."
+            "description": "Stew cooked in a citrus-beer sauce, served with rice and plantains."
         },
         {
             "name": "Bolón de Verde",
@@ -184,7 +184,7 @@
                 "onion"
             ],
             "image": "images/Yaguarlocro.webp",
-            "description": "Hearty potato and lamb stew topped with fried blood sausage and avocado."
+            "description": "Potato and lamb stew with fried blood sausage and avocado."
         },
         {
             "name": "Chicha de Jora",
