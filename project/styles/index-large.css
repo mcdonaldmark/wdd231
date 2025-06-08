@@ -169,7 +169,7 @@ main {
 }
 
 .footer2 {
-    margin-top: 1700px;
+    margin-top: 1800px;
 }
 
 .paralign {
@@ -544,6 +544,10 @@ figcaption {
 }
 
 #cards p {
+    margin-top: 10px;
+}
+
+#cards img {
     margin-top: 10px;
 }
 
