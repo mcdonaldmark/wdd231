@@ -240,8 +240,9 @@ input[type=submit]:hover {
 }
 
 .vero {
-    margin-left: -900px;
+    margin-left: 730px;
     margin-bottom: 200px;
+    margin-top: 100px;
     border: 2px solid black;
     border-radius: 50%;
     box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
@@ -250,60 +251,6 @@ input[type=submit]:hover {
 .section1 {
     margin-bottom: 550px;
     margin-left: -1030px;
-}
-
-.mimi {
-    margin-left: -1100px;
-    border: 2px solid black;
-    border-radius: 50%;
-    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
-}
-
-.mimi1 {
-    margin-left: -850px;
-}
-
-.alignh2 {
-    margin-left: 720px;
-    width: 100%;
-    margin-top: -30px;
-}
-
-input[type="radio"] {
-    display: none;
-    position: relative;
-    caret-color: rgba(0, 0, 0, 0);
-}
-
-.stars {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: left;
-    margin-left: -40px;
-}
-
-.stars>label {
-    color: purple;
-    width: 30px;
-    height: 30px;
-    font-size: 2rem;
-    margin-left: 40px;
-    display: flex;
-    align-items: center;
-    caret-color: rgba(0, 0, 0, 0);
-    /* remove blinking cursor*/
-}
-
-.stars>label:hover {
-    color: #000;
-}
-
-.stars>label::before {
-    content: "\2606";
-}
-
-.stars input:checked~label::before {
-    content: "\2605";
 }
 
 .pf1 fieldset {
@@ -490,7 +437,9 @@ li {
 
 .para {
     width: 65%;
-    margin-left: -100px;
+    margin-left: -260px;
+    margin-top: 700px;
+    font-size: 30px;
 }
 
 .space {

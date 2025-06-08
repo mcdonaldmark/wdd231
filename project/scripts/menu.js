@@ -2,13 +2,13 @@ const url = 'https://mcdonaldmark.github.io/wdd231/project/data/cuisine.json';
 const cards = document.querySelector('#cards');
 async function getCuisineData() {
     try {
-    const response = await fetch(url);
-    const data = await response.json();
-    console.table(data.cuisine);
-        displayCuisine(data.cuisine);  
-} catch (error) {
-    console.log(error);
-}
+        const response = await fetch(url);
+        const data = await response.json();
+        console.table(data.cuisine);
+        displayCuisine(data.cuisine);
+    } catch (error) {
+        console.log(error);
+    }
 }
 
 getCuisineData();
