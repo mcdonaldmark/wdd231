@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="styles/index-large.css">
     <link rel="stylesheet" href="styles/index-small.css">
     <script src="scripts/index.js" defer></script>
-    <script src="scripts/contact.js" defer></script>
+    <script src="scripts/thankyou.js" defer></script>
     <meta name="description" content="About">
     <meta name="author" content="Mark McDonald">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -35,51 +35,11 @@
         </nav>
     </header>
 
-    <form method="get" action="thankyou.html" class="pf1">
+    <main>
+        <h1 class="adapt">Thank you for your submission! We are happy to see you here!</h1>
+        <div id="results"></div>
+    </main>
 
-        <fieldset>
-            <label><b><span class=red>*</span> First Name: </b><input type="text" name="firstName" id="firstName"
-                    title="First Name" required></label>
-        </fieldset>
-
-        <fieldset>
-            <label><b><span class="red">*</span> Last Name: </b><input type="text" name="lastName" id="lastName"
-                    title="Last Name" required></label>
-        </fieldset>
-
-        <fieldset>
-            <label><b><span class="red">*</span> Email Address: </b><input type="email" name="email" id="email"
-                    title="Email" required placeholder="johndoe@doe.com"></label>
-        </fieldset>
-
-        <fieldset>
-            <label><b><span class="red">*</span> Mobile Phone Number: </b><input type="tel" name="telephone"
-                    id="telephone" title="Telephone" required></label>
-        </fieldset>
-
-        <fieldset>
-            <label><b>Which product do you have questions about?</b><select name="productName" id="productName">
-                    <option value="" selected="true" disabled="disabled">Choose a Product...</option>
-                </select>
-            </label>
-        </fieldset>
-
-        <fieldset>
-            <label><b><span class="red">*</span> Message </b><textarea name="writeDescription" id="writeDescription"
-                    title="Business/Organizational Description" required></textarea></label>
-        </fieldset>
-
-        <input type="hidden" name="timestamp" id="timestamp">
-
-        <input type="submit" value="Send me a message!">
-
-        <p class="p1">* Required Field</p>
-
-    </form>
-
-
-    <section class="footer3">
-    </section>
     <footer>
         <p>&#169;<span id="currentyear"></span> 🌵 Mark McDonald 🌵 Utah</p>
         <p class="text">Last Modified: <span id="modified"></span></p>

@@ -1,5 +1,4 @@
 const url = 'https://mcdonaldmark.github.io/wdd231/project/data/cuisine.json';
-const cards = document.querySelector('#product');
 async function getCuisineData() {
     try {
         const response = await fetch(url);
@@ -13,8 +12,18 @@ async function getCuisineData() {
 
 const selectElement = document.getElementById("productName");
 
-cuisine.forEach(product => {
-    const optionElement = document.createElement("option");
-    optionElement.textContent = product.name;
-    selectElement.appendChild(optionElement);
-});
+getCuisineData();
+
+const displayCuisine = (cuisine) => {
+    cuisine.forEach((item) => {
+        const optionElement = document.createElement("option");
+        optionElement.textContent = item.name;
+        selectElement.appendChild(optionElement);
+    });
+}
+
+//Timestamp
+var now = new Date();
+var timestamp = now.toISOString();
+document.getElementById('timestamp').value = timestamp;
+
