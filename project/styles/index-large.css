@@ -254,7 +254,7 @@ input[type=submit]:hover {
 }
 
 .pf1 {
-    margin-left: 400px;
+    margin-left: 300px;
 }
 
 .pf1 fieldset {
@@ -441,7 +441,7 @@ li {
 
 .para {
     width: 65%;
-    margin-left: -460px;
+    margin-left: -400px;
     margin-top: 700px;
     font-size: 30px;
 }
@@ -789,7 +789,7 @@ button:hover {
 
 .adapt {
     font-size: 26px;
-    margin-left: 300px;
+    margin-left: 250px;
     white-space: nowrap;
 }
 
