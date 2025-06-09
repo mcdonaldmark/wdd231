@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="styles/index-large.css">
     <link rel="stylesheet" href="styles/index-small.css">
+    <link rel="stylesheet" href="styles/index-large.css">
     <script src="scripts/index.js" defer></script>
     <script src="scripts/testimonial.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
     <meta name="description" content="Home Page">
     <meta name="author" content="Mark McDonald">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,6 +28,7 @@
     <header>
         <img class="shrink" src="images/logo.png" alt="logo">
         <h1 class="title3">A Little Taste of Ecuador</h1>
+        <button type="button" id="menu" title="Menu"></button>
         <nav>
             <a href="https://mcdonaldmark.github.io/wdd231/project/index.html">Home</a>
             <a href="https://mcdonaldmark.github.io/wdd231/project/about.html">About Me</a>
@@ -71,17 +73,17 @@
         </section>
     </main>
     <section class="footer1">
-        <h2>Testimonials</h2>
+        <h2 class="header2">Testimonials</h2>
         <p class="paralign testimonial">This place is fantastic! - Happy Customer 1</p>
         <p class="paralign testimonial">I would eat here every day! - Happy Customer 2</p>
         <p class="paralign testimonial">I love the food! It's so delicious! - Happy Customer 3</p>
         </div>
     </section>
     <footer>
-        <p>&#169;<span id="currentyear"></span> 🌵 Mark McDonald 🌵 Utah</p>
+        <p class="text2">&#169;<span id="currentyear"></span> 🌵 Mark McDonald 🌵 Utah</p>
         <p class="text">Last Modified: <span id="modified"></span></p>
 
-        <nav class="nav1">
+            <div class="nav1"> 
             <a href="https://facebook.com">
                 <img class="socialmedia" src="images/facebook.svg" alt="Facebook" width="50" height="50">
             </a>
@@ -91,7 +93,7 @@
             <a href="https://twitter.com">
                 <img class="socialmedia" src="images/twitter.svg" alt="Twitter" width="50" height="50">
             </a>
-        </nav>
+        </div>
     </footer>
 </body>
 
