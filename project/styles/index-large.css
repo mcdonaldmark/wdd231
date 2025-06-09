@@ -125,7 +125,7 @@ main {
 }
 
 .marginleft {
-    margin-left: -200px;
+    margin-left: -400px;
     line-height: 100px;
 }
 
@@ -240,7 +240,7 @@ input[type=submit]:hover {
 }
 
 .vero {
-    margin-left: 730px;
+    margin-left: 530px;
     margin-bottom: 200px;
     margin-top: 100px;
     border: 2px solid black;
@@ -251,6 +251,10 @@ input[type=submit]:hover {
 .section1 {
     margin-bottom: 550px;
     margin-left: -1030px;
+}
+
+.pf1 {
+    margin-left: 400px;
 }
 
 .pf1 fieldset {
@@ -437,7 +441,7 @@ li {
 
 .para {
     width: 65%;
-    margin-left: -260px;
+    margin-left: -460px;
     margin-top: 700px;
     font-size: 30px;
 }
@@ -484,7 +488,7 @@ figcaption {
 
 #cards {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     column-gap: 100px;
     row-gap: 30px;
     text-align: center;
@@ -785,10 +789,15 @@ button:hover {
 
 .adapt {
     font-size: 26px;
+    margin-left: 300px;
     white-space: nowrap;
 }
 
 #results {
-    margin-left: -1000px;
+    margin-left: -700px;
     margin-top: 100px;
+}
+
+.section2 {
+    margin-left: -200px;
 }
