@@ -285,12 +285,13 @@ input[type=submit]:hover {
 }
 
 .vero {
-    margin-left: 530px;
+    margin-left: 0px;
     margin-bottom: 200px;
     margin-top: 100px;
     border: 2px solid black;
     border-radius: 50%;
     box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    width: 400px;
 }
 
 .section1 {
@@ -485,10 +486,10 @@ li {
 }
 
 .para {
-    width: 65%;
-    margin-left: -360px;
+    margin-left: -930px;
     margin-top: 700px;
-    font-size: 30px;
+    font-size: 20px;
+    max-width: 35ch;
 }
 
 .space {
