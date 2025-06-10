@@ -291,7 +291,7 @@ input[type=submit]:hover {
     border: 2px solid black;
     border-radius: 50%;
     box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
-    width: 400px;
+    width: 330px;
 }
 
 .section1 {
@@ -489,7 +489,7 @@ li {
     margin-left: -930px;
     margin-top: 700px;
     font-size: 20px;
-    max-width: 35ch;
+    max-width: 25ch;
 }
 
 .space {
