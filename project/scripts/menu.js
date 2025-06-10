@@ -217,8 +217,8 @@ const displayCuisine = (cuisine) => {
 
         name.textContent = `${item.name}`;
         description.textContent = `${item.description}`;
-        portrait.setAttribute('src', item.image);
-        portrait.setAttribute('alt', item.name);
+        portrait.setAttribute('src', `${item.image}`);
+        portrait.setAttribute('alt', `${item.name}`);
         portrait.setAttribute('loading', 'lazy');
         portrait.setAttribute('width', '250');
         portrait.setAttribute('height', '240');
