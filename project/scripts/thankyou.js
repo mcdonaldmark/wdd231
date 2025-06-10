@@ -8,7 +8,6 @@ console.log(myInfo.get('firstName'));
 console.log(myInfo.get('lastName'));
 console.log(myInfo.get('email'));
 console.log(myInfo.get('telephone'));
-console.log(myInfo.get('business'));
 console.log(myInfo.get('timestamp'));
 
 document.querySelector('#results').innerHTML = `
