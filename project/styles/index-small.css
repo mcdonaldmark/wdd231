@@ -836,14 +836,15 @@ button:hover {
 }
 
 .adapt {
-    font-size: 15px;
+    font-size: 12px;
     margin-left: -140px;
 }
 
 #results {
     margin-left: -1230px;
     margin-top: 80px;
-    font-size: 15px;
+    font-size: 12px;
+    margin-bottom: 300px;
 }
 
 .section2 {
