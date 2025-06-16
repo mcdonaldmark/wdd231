@@ -22,6 +22,7 @@ const displayCuisine = (cuisine) => {
     });
 }
 
+
 //Timestamp
 var now = new Date();
 var timestamp = now.toISOString();
